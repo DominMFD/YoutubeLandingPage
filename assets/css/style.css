@@ -1,0 +1,410 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap');
+
+
+* {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+  }
+
+header {
+    width: auto;
+    min-width: 1816px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding: 0px 24px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#left-header {
+    width: 146px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 0px;
+
+}
+
+#menu {
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+
+#logo{
+    width: 90px;
+    height: 20px;
+    padding-left: 20px;
+    margin: auto;
+}
+
+#center-header{
+    width: 404px;
+    height: 30px;
+    border: 1px solid #CCCCCC;
+    border-radius: 30px;
+    display: flex;
+    margin: auto;
+    background-color: #f5f5f5;
+}
+
+#center-header input {
+    width: 360px;
+    border: 1px solid #CCCCCC;
+    border-radius: 30px;
+}
+
+#center-header img {
+    width: 25px;
+    height: 25px; 
+    margin: auto;
+}
+
+#center-header:hover {
+    background-color: #EFEFEF;
+}
+
+
+#right-header {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    padding: 12px 0px;
+    align-items: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+
+#picture {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    gap: 10px;
+    display: flex;
+}
+
+#main-content {
+    width: 1187px;
+    height: 1200px;
+    margin: 28px 10px 0px 170px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main-content h1 {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    font-weight: 600;
+    word-break: break-word;
+}
+
+#video-actions {
+    width: 1162px;
+    height: 42px;
+    gap: 220px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+#left-content {
+    width: 570px;
+    height: 42px;
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#right-content{
+    width: 575px;
+    height: 42px;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#channel {
+    width: 190px;
+    height: 42;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#channel-logo img{
+    width: 60px;
+    margin-left: -13px;
+}
+
+#channel-info {
+    width: 160px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-bottom: 6px;
+}
+
+#channel-info h2 {
+    font-size: 16px;
+}
+
+#channel-info p {
+    font-size: 12px;
+}
+
+#subscription-button {
+    width: 110px;
+    height: 34px;
+    margin: 12px;
+    color: white;
+    background-color: black;
+    border-color: black;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#subscription-button:hover {
+    background-color: white;
+    color: black;
+}
+
+.buttons {
+    border: 1px solid #f5f5f5;
+    border-radius: 30px;
+    background-color: #f5f5f5;
+}
+
+#buttons {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    border-radius: 30px;
+}
+
+#like-button {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #f5f5f5;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+#like-button:hover {
+    background-color: #EFEFEF
+}
+
+#like-button img {
+    margin-bottom: 4px;
+}
+
+#deslike-button {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid #f5f5f5;
+    cursor: pointer;
+    border-left: #CC0000;
+    background-color: #f5f5f5;
+}
+
+#deslike-button:hover {
+    background-color: #EFEFEF
+}
+
+#deslike-button img {
+    margin-top: 4px;
+}
+
+#share-button {
+    width: 140px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#share-button:hover { 
+    background-color: #EFEFEF
+}
+
+#share-button p {
+    margin-left: 12px;
+}
+
+#download-button {
+    width: 120px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+#download-button:hover {
+    background-color: #EFEFEF
+}
+
+#download-button p {
+    margin-left: 12px;
+}
+
+#video-description {
+    width: 1125px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#viwers {
+    font-weight: 550;
+    margin-right: 20px;
+}
+
+#game-hashtag{
+    font-style: italic;
+    margin: 0 20px;
+    color: #144deb;
+}
+
+#content-description {
+    margin-top: 15px;
+}
+
+#video-navegation {
+    width: 470px;
+    height: 1100px;
+    margin: 28px 25px 0 0px;
+}
+
+.video-box {
+    width: 470px;
+    height: 120px;
+    display: flex;
+    margin: -8px;
+}
+
+.video-box img {
+    width: 270px;
+    height: 110px;
+    margin-top: 10px;
+}
+
+.box-info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+
+#image-sojourn {
+    width: 220px;
+    height: 110px;
+    margin-top: 10px;
+}
+
+#cooruja {
+    width: 220px;
+    height: 110px;
+    margin-top: 10px;
+}
+
+.viwers {
+    margin-bottom: 20px;
+}
+
+#true-damage {
+    width: 210px;
+    height: 105px;
+    margin-top: 10px;
+}
+
+#die-for-you {
+    width: 210px;
+    height: 105px;
+    margin-top: 10px;
+}
+
+    
+
+
+.box-info h2 {
+    font-size: 1.1rem;
+    margin-bottom: 7px;
+}
+
+.box-info a {
+    width: 270px;
+    height: 110px;
+}
+
+#cooruja {
+    margin-left: -5px;
+}
+
+#champions-music {
+    width: 240px;
+    margin-left: -15px;
+}
+
+#genese {
+    width: 230px;
+    height: 110px;
+    margin-top: 10px;
+    margin-left: -15px;
+}
+
+#genese2 {
+    width: 210px;
+    height: 105px;
+    margin-top: 10px;
+}
+
+#kiriko {
+    width: 210px;
+    height: 105px;
+    margin-top: 10px;
+}
+
+#ow2cinematic {
+    width: 210px;
+    height: 105px;
+    margin-top: 10px;
+}
+
+
+
